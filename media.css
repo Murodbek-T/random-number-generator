@@ -1,0 +1,38 @@
+/* Mobile L */
+
+@media (width <= 425px) {
+  .box {
+    width: 350px;
+    height: 260px;
+  }
+
+  input {
+    width: 150px;
+    height: 35px;
+  }
+}
+
+@media (width <= 320px) {
+  .box {
+    width: 300px;
+    height: 250px;
+  }
+
+  input {
+    width: 130px;
+    height: 35px;
+    font-size: 1rem;
+  }
+}
+
+@media (width <= 300px) {
+  .box {
+    width: 280px;
+    height: 250px;
+  }
+
+  input {
+    width: 130px;
+    height: 35px;
+    font-size: 1rem;
+  }
